@@ -15983,13 +15983,11 @@ var _temp2 = function () {
 
 
 
-// import './app.component.scss';
-
 __webpack_require__(298);
 
 Object(react_dom["render"])(react_default.a.createElement(
   es_Router,
-  { history: browserHistory },
+  { history: hashHistory },
   react_default.a.createElement(es_Route, { path: '/', component: forest_view_component_ForestView })
 ), document.getElementById('oc-examples'));
 ;
