@@ -27,7 +27,7 @@ export default class ForestView extends React.PureComponent {
   render() {
     const data = [
       {
-        title: "brach 1",
+        title: "branch 1",
         key: "1",
         children: [
           {
@@ -41,7 +41,7 @@ export default class ForestView extends React.PureComponent {
         ],
       },
       {
-        title: "brach 2",
+        title: "branch 2",
         key: "2",
         children: [
           {
@@ -58,17 +58,19 @@ export default class ForestView extends React.PureComponent {
 
     const props = {
       data: data,
-      checkable: false,
     }
     return (
       <div>
+        <h3>Default rc-tree:</h3>
         {this.renderRcTree()}
+        <h3>Default react-tree, rc-tree without checkboxes and icons:</h3>
         {this.renderTree(props)}
+        <h3>Expanded:</h3>
         {this.renderTree({
-          showIcon: false,
           defaultExpandedKeys: ["1"],
           ...props
         })}
+        <h3>Customized content:</h3>
         {this.renderTree({
           elements: {
             "2-1": <div>Kukkuu</div>
