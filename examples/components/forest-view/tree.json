@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Pine",
+    "key": "1",
+    "children": [
+      {
+        "title": "Twig",
+        "key": "1-1"
+      },
+      {
+        "title": "Needle",
+        "key": "1-2"
+      }
+    ]
+  },
+  {
+    "title": "Birch",
+    "key": "2",
+    "children": [
+      {
+        "title": "Branch",
+        "key": "2-1",
+        "children": [
+          {
+            "title": "Dogear",
+            "key": "2-1-1"
+          }
+        ]
+      },
+      {
+        "title": "Leaf",
+        "key": "2-2"
+      }
+    ]
+  }
+]

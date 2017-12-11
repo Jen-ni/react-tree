@@ -1,0 +1,15 @@
+.react-tree .rc-tree li span.rc-tree-switcher {
+  background-image: none;
+}
+
+.react-tree .rc-tree li span.rc-tree-switcher_open:before {
+  font-family: FontAwesome;
+  content: "\f060";
+  position: absolute;
+}
+
+.react-tree .rc-tree li span.rc-tree-switcher_close:before {
+  font-family: FontAwesome;
+  content: "\f061";
+  position: absolute;
+}
